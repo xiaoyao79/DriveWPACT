@@ -102,7 +102,7 @@
 <span class="gp">&gt;&gt;&gt; </span>    <span class="n">I</span> <span class="mf">105318.8</span> <span class="mf">105318.8</span> <span class="mf">105318.8</span> <span class="p">[</span><span class="n">kg</span><span class="o">*</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="p">,</span> <span class="n">kg</span><span class="o">*</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="p">,</span> <span class="n">kg</span><span class="o">*</span><span class="n">m</span><span class="o">^</span><span class="mi">2</span><span class="p">]</span>
 </pre></div>
 </div>
-<p>Secondly, we will demonstrate the nacelle system model.  The hub model relies on inputs from the rotor and hub as well as design variables for the drivetrain. Inputs from the rotor include the rotor diameter, the rotor speed at rated power, the rotor torque at rated power, the maximum thrust from the rotor and the overall rotor mass (including blades and hub).  For the drivetrain, the overall configuration (3-stage geared, single-stage, multi-generator, or direct-drive) must be specified.  The overall gear ratio (1 for direct drive) must be specified along with the gear configuration (may be null for direct drive) and a Boolean for the presence of a bevel stage.  If an onboard crane is present, then the crane Boolean should be set true.  Finally the machine rating (in kW) must be provided.</p>
+<p>Secondly, we will demonstrate the nacelle system model.  The nacelle model relies on inputs from the rotor and hub as well as design variables for the drivetrain. Inputs from the rotor include the rotor diameter, the rotor speed at rated power, the rotor torque at rated power, the maximum thrust from the rotor and the overall rotor mass (including blades and hub).  For the drivetrain, the overall configuration (3-stage geared, single-stage, multi-generator, or direct-drive) must be specified.  The overall gear ratio (1 for direct drive) must be specified along with the gear configuration (may be null for direct drive) and a Boolean for the presence of a bevel stage.  If an onboard crane is present, then the crane Boolean should be set true.  Finally the machine rating (in kW) must be provided.</p>
 <div class="highlight-python"><div class="highlight"><pre><span class="c"># test of drivetrain model</span>
 
 <span class="c"># NREL 5 MW Rotor Variables</span>
@@ -223,7 +223,7 @@
     </div>
     <div class="footer">
         &copy; Copyright 2014, NREL.
-      Last updated on Sep 24, 2014.
+      Last updated on Sep 25, 2014.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
     </div>
   </body>
